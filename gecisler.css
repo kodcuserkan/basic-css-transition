@@ -1,0 +1,52 @@
+.box {
+    background-color: rgb(226, 192, 117);
+    width: 250px;
+    height: 250px;
+    position: relative;
+    margin: auto;
+    margin-top: 5%;
+    transition-property: background,transform;
+    transition-duration: 1s;
+    transition-duration: 1s;
+    transition-delay: 0.5s , 1s;
+    transition-timing-function: ease-in;
+}
+.box:hover {
+    background: red;
+    transform: rotateY(180deg);
+}
+
+.box2 {
+    background-color: rgb(226, 192, 117);
+    width: 250px;
+    height: 250px;
+    position: relative;
+    margin: auto;
+    margin-top: 15%;
+    /* transition-property: background, border-radius, transform; */
+    transition-property: background, border-radius;
+    transition-duration: 1s;
+    /* transition-delay: 0.5s; */
+    transition-timing-function: ease-in;
+}
+.box2:hover {
+    background: red;
+    border-radius: 50%;
+    /* transform: rotateY(180deg); */
+}
+
+.box3 {
+    background-color: rgb(226, 192, 117);
+    width: 250px;
+    height: 250px;
+    position: relative;
+    margin: auto;
+    margin-top: 15%;
+    transition-property: all;
+    transition-duration: 1s;
+}
+.box3:active {
+    background: red;
+    border-radius: 90%;
+    transform: rotateX(360deg);
+}
